@@ -34,7 +34,7 @@ export default class extends Core {
             direction: this.direction,
             gestureDirection: this.gestureDirection,
             smooth: this.smooth,
-            smoothTouch: this.smooth,
+            smoothTouch: this.smoothTouch,
             touchMultiplier: this.touchMultiplier
         });
 

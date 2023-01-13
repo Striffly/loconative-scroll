@@ -5,6 +5,7 @@ export const defaults = {
     offset: [0, 0],
     repeat: false,
     smooth: true,
+    smoothTouch: false,
     initPosition: { x: 0, y: 0 },
     direction: 'vertical',
     gestureDirection: 'vertical',
@@ -19,13 +20,13 @@ export const defaults = {
     touchMultiplier: 3,
     resetNativeScroll: true,
     tablet: {
-        smooth: false,
+        smooth: true,
         direction: 'vertical',
         gestureDirection: 'horizontal',
         breakpoint: 1024
     },
     smartphone: {
-        smooth: false,
+        smooth: true,
         direction: 'vertical',
         gestureDirection: 'vertical'
     }
