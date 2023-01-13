@@ -1,5 +1,4 @@
 import Core from './Core';
-import smoothscroll from 'smoothscroll-polyfill';
 import { getTranslate } from './utils/transform';
 import Lenis from '@studio-freight/lenis';
 
@@ -12,11 +11,6 @@ export default class extends Core {
                 history.scrollRestoration = 'manual';
             }
             window.scrollTo(0, 0);
-        }
-
-        if (window.smoothscrollPolyfill === undefined) {
-            window.smoothscrollPolyfill = smoothscroll;
-            window.smoothscrollPolyfill.polyfill();
         }
     }
 
